@@ -166,7 +166,7 @@ h4 {
     font-weight: bolder;
 }
 
-#ep3-btn {
+#details-btn {
     margin-top: 50px;
     padding:  10px 20px;
     font-size: 14px;
@@ -181,14 +181,72 @@ h4 {
 }
 
 
-#ep3-btn:hover {
+#details-btn:hover {
     background: -moz-linear-gradient(top, #7e7d7d 0%, #acacac 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #7e7d7d 0%,#acacac 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #7e7d7d 0%,#acacac 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 }
 
+
+
+
 /* slider */
+
+.about-container {
+    width: 75%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    padding: 50px 0 50px 0;
+ 
+}
+
+.col-6 {
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    color: #fff;
+    text-align: center;
+    
+} 
+
+.col-6 p {
+    padding: 20px;
+    text-align: left;
+    color: #fff;
+}
+
+.col-6 img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+
+#about-btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: -moz-linear-gradient(top, #acacac 0%, #7e7d7d 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #acacac 0%,#7e7d7d 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #acacac 0%,#7e7d7d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+#about-btn:hover {
+    background: -moz-linear-gradient(top, #7e7d7d 0%, #acacac 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #7e7d7d 0%,#acacac 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #7e7d7d 0%,#acacac 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
 
 .mySlides {
     display:none
@@ -317,6 +375,11 @@ h4 {
 
 
  
+@media screen and (min-width: 1000px) {
+    .col-6 > h2 {
+        padding-top: 60px;
+      }
+}
   
 
 
@@ -383,6 +446,12 @@ h4 {
       #tickets-btn {
           font-size: 22px;
       }
+
+      .col-6 {
+        width: 45%;
+      }
+
+     
 
     
 
