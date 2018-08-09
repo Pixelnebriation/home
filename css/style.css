@@ -389,7 +389,7 @@ h4 {
 }
 
 .about-text {
-    padding: 70px;
+    padding: 20px;
 }
 
 .sharkbit {
@@ -414,7 +414,7 @@ h4 {
 
 
 #info {
-    padding: 70px;
+    padding: 70px 20px;
 }
 
 #info li  a {
@@ -501,6 +501,10 @@ h5 {
     .col-6 > h2 {
         padding-top: 60px;
       }
+
+      .about-text {
+        padding: 70px 200px;
+    }
 
       #info {
         padding: 70px 200px;
@@ -607,9 +611,7 @@ h5 {
         margin-bottom: 0px;
     }
 
-    .about-text {
-        padding: 70px 200px;
-    }
+    
 
     
 
