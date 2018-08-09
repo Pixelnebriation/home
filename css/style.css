@@ -181,11 +181,11 @@ h4 {
 /* Short about section */
 
 .about-container {
-    width: 75%;
+    width: 95%;
     margin: auto;
-    height: auto;
+    height: 800px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     flex-flow: wrap;
     padding: 50px 0 50px 0;
@@ -223,11 +223,14 @@ h4 {
 
 #about-btn {
     padding: 10px 20px;
+    margin: 10px;
     border-radius: 5px;
     border: none;
     background-color: #585a5a;
-    color: white;
+    color: #fff;
     text-decoration: none;
+    font-size: 12px;
+   
 
 }
 
@@ -582,7 +585,9 @@ h5 {
       }
 
      
-
+      .about-container {
+          height: auto;
+      }
     
 
       .left-text {
