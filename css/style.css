@@ -8,7 +8,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(209, 204, 204);
+    background-color: rgb(236, 233, 233);
     
   }
 
@@ -178,7 +178,7 @@ h4 {
 
 
 
-/* sShort about section */
+/* Short about section */
 
 .about-container {
     width: 75%;
@@ -227,6 +227,7 @@ h4 {
     border: none;
     background-color: #585a5a;
     color: white;
+    text-decoration: none;
 
 }
 
@@ -363,11 +364,147 @@ h4 {
 }
 
 
+/*About page*/
+
+
+
+#about-title{
+    
+   margin: auto;
+   padding: 50px;
+   background-color: #4cb4c4;
+}
+
+#about-title h1 {
+    text-align: center;
+}
+
+#about-title img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    
+}
+
+.about-text {
+    padding: 70px;
+}
+
+.sharkbit {
+    background-color: #4cb4c4;
+    text-align: center;
+    padding: 10px;
+}
+
+.sharkbit img {
+    padding-top: 20px;
+}
+
+
+/* Episode 3 page */
+
+#ep3Title {
+    text-align: center;
+    background-color: #4cb4c4;
+    padding: 50px;
+    width: 100%;
+}
+
+
+#info {
+    padding: 70px;
+}
+
+#info li  a {
+    color: #1da1f2;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#info li  a:hover {
+    color: #106faa
+}
+
+#info ul {
+    width: 100%;
+    padding-left: 40px;
+}
+
+#info li {
+    padding-bottom: 10px;
+}
+
+.tagline {
+    font-style: italic;
+}
+
+.names {
+    color: #3da2b2;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+#agenda {
+    background-color: #4cb4c4;
+}
+
+.agenda-container {
+    
+    width: 75%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    padding: 50px 0 50px 0;
+}
+
+.agenda-container ul {
+    margin: 0;
+}
+
+.agenda-container li {
+    padding-bottom: 10px;
+}
+
+#location p {
+    text-align: center;
+}
+
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
+
  
 @media screen and (min-width: 1000px) {
     .col-6 > h2 {
         padding-top: 60px;
       }
+
+      #info {
+        padding: 70px 200px;
+    }
 }
   
 
@@ -469,6 +606,12 @@ h4 {
         
         margin-bottom: 0px;
     }
+
+    .about-text {
+        padding: 70px 200px;
+    }
+
+    
 
   }
 
