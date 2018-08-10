@@ -335,7 +335,7 @@ h4 {
 
 .left-text, .right-text {
     text-align: center;
-    size: 20px;
+    size: 30px;
     margin-bottom: 20px;
     padding-top: 20px;
 }
@@ -345,14 +345,14 @@ h4 {
     font-size: 12px;
 }
 
-.right-text > a {
+.twitter {
 
     color: #1da1f2;
     font-size: 30px;
 }
 
-.right-text > a:hover {
-    text-shadow:1px 1px 10px gray, 1px 1px 10px #ccc;
+.twitter:hover {
+    color: #027ac4;
 }
 
 #copyright {
@@ -364,6 +364,39 @@ h4 {
 
 #twitter {
     font-size: 12px;
+   
+}
+
+#instagram {
+    font-size: 12px;
+
+}
+
+.instagram {
+    float: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #acacac;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.instagram:hover {
+    color: #fff;
+}
+
+#discord {
+    font-size: 12px;
+}
+
+.discord {
+    padding-left: 20px;
+    font-size: 35px;
+    color: #7289da;
+}
+
+.discord:hover {
+    color: #4b65c0;
 }
 
 
@@ -497,6 +530,28 @@ h5 {
 }
 
 
+/* Past Events */
+
+.past-events-title {
+    text-align: center;
+    width: 100%;
+    background-color: #4cb4c4;
+    padding: 50px;
+}
+
+.past-events-container {
+    width: 95%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-flow: wrap;
+    padding: 50px 0 50px 0;
+}
+
+
+
 
 
  
@@ -511,6 +566,10 @@ h5 {
 
       #info {
         padding: 70px 200px;
+    }
+
+    .past-events-container {
+        padding: 70px 100px;
     }
 }
   
