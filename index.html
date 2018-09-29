@@ -4,115 +4,280 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <title>Pixelnebriation</title>
-    <link rel="shortcut icon" href="img/favicon-icon.ico"/>
 </head>
 <body>
+       
+    
+       
     <nav class="navbar">
-        <span id="navbar-toggle">
-            <i class="fas fa-bars"></i>
-        </span>
-        <a href="index.html" id="logo"><img src="img/logoxs.png" alt="the pixelnebriation logo"></a>
-        <ul id="main-nav">
-            <li>
-                <a href="index.html" class="nav-links active"><i class="fas fa-gamepad"></i>Home</a>
-            </li>
-            <li>
-                <a href="about.html" class="nav-links">About</a>
-            </li>
-            <li>
-                <a href="episode3.html" class="nav-links">Episode 3</a>
-            </li>
-            <li>
-                <a href="past-events.html" class="nav-links">Past Events</a>
-            </li>
-            
+       <a href="index.html"><img id="logo" src="img/logo.png"></a>
+        <a href="#" id="menu-icon"></a>
+        <ul class="menu">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#episode3">EPISODE 3</a></li>
+          <li><a href="#pastevents">PAST EVENTS</a></li>
         </ul>
-    </nav>
-    <section id="banner">
-            <h1>Pixelnebriation Episode 3 : Checkpoint Brutal</h1>
-            <h3>Fri 28 September 2018 , 2 - 9pm</h3>
-            <h4>Location : Blackbull Yard , 18a Hatton Wall , EC 1N 8JH</h4>
-            <a href="https://www.eventbrite.co.uk/e/pixelnebriation-episode-3-checkpoint-brutal-tickets-48364706138" target="_blank" id="tickets-btn">Get Tickets ></a> <br>
-            <br>
-            <br>
-            <br>
-            <a href="episode3.html" id="details-btn">More Details >></a>
-    </section>
-    <hr>
+      </nav>
+    
+      
+      <div class="sections">
+        <section id="home">
+            <div class="content">
+                <h1>Pixelnebriation Episode 3:</h1>
+                <img id="checkpoint" src="img/checkpoint.png">
+                <p>Friday 28 September 2018 , 2 - 9pm</p>
+                <p>Location : Blackbull Yard , 18a Hatton Wall , EC 1N 8JH</p>
+                <h3>Thank you to everyone who came to Episode 3!<br>
+                    Watch this space for details on Episode 4!
+                </h3>
+                <button class="btn"><a href="#episode3">More Info</a></button>
+            </div>
+        </section>
 
-    <div class="slideshow-container">
-        <div class="mySlides fade">
-            <img src="img/slide1.jpg" alt="Close up photo of Pixelnebriation cupcakes" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-            <img src="img/slide2.jpg" alt="Photo of 3 people at a pixelnebriation event" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-            <img src="img/slide3.jpg" alt="Photo of 4 people sitting around a table at a pixelnebriation event" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-            <img src="img/slide4.jpg" alt="Photo of 3 Pixelnebriation posters" style="width:100%">
-        </div>
-        
-              
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-              
-</div>
-<br>
-              
-<div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span> 
-    <span class="dot" onclick="currentSlide(2)"></span> 
-    <span class="dot" onclick="currentSlide(3)"></span> 
-    <span class="dot" onclick="currentSlide(4)"></span>
-</div>
+        <section id="about">
+            <div id="about-contents">
+                <div class="col-6">
+                    <h1>About Pixelnebriation</h1>
+                    <img src="img/gameover.png">
+                    <p>
+                        Pixelnebriation is a meet-up event for people starting out, or wanting to get into the gaming industry, 
+                        as well as people who are already well established. People who are also just interested in gaming are also welcome! It provides a 'safe space' for people who may not be comfortable with socialising or networking, to talk with other similar folk. Leading to possible collaborations, or new friendships. It also provides the chance to talk to experienced people in the industry. 
+                        <br>
+                        <br>
+                        The locations of each Pixelnebriation event vary around London, but are always in casual and fun 
+                        places such as Loading Bar in Dalston. The latest event took place at The Association for UK 
+                        Interactive Entertainment (UKIE) building in Hatton Wall.</p>
+                    </p>
+                </div>
+                <div class="col-6">
+                    <h1>About Sharkbit</h1>
+                    <a href="https://sharkbit.co.uk/"><img src="img/sharkbit.png"></a>
+                    <p>
+                        Pixelnebriation is run by Sharkbit. <br>
+                        <br>
+                        Sharkbit is a Marketing and PR consultancy, combining years of experience and utilizing industry knowledge, 
+                        to help creators of games, films, esport media and events fulfill their goals and make their mark!
+                    </p>
 
+                </div>
+            </div>
 
-    <section id="about">
-            <div class="about-container">
-                    <div class="col-6">
-                        <img src="img/logo2.png" alt=""/>    
-                    </div>
-                    <div class="col-6">
-                            
-                            <h2>What is Pixelnebriation?</h2>
-                            <p> 
-                                Pixelnebriation is an event focused on networking/socializing for folks starting out in the gaming industry who
-                                find it difficult to socialise and promote their creations, and to do so in a comfortable, open environment.
-                            </p>
-                            <a href="about.html" id="about-btn">Read More >></a>
-                            <br>
+            <hr>
+
+            <div class="slideshow-container">
+                    <div class="mySlides fade">
+                            <img src="img/slide2-2.jpg" alt="Close up photo of Pixelnebriation cupcakes" style="width:100%">
                         </div>
+                    <div class="mySlides fade">
+                        <img src="img/slide1.jpg" alt="Close up photo of Pixelnebriation cupcakes" style="width:100%">
                     </div>
+                    <div class="mySlides fade">
+                        <img src="img/slide3-2.jpg" alt="Photo of 3 people at a pixelnebriation event" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img/slide3.jpg" alt="Photo of 4 people sitting around a table at a pixelnebriation event" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                            <img src="img/slide1-2.jpg" alt="Photo of 4 people sitting around a table at a pixelnebriation event" style="width:100%">
+                        </div>
+                    <div class="mySlides fade">
+                        <img src="img/slide2.jpg" alt="Photo of 3 Pixelnebriation posters" style="width:100%">
+                    </div>
+                    
+                        
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        
+            </div>
+            <br>
+                        
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+        </section>
+        <hr>
+        <section id="episode3">
+            <br>
+            <div></div>
+                
+            <img id="checkpoint" src="img/checkpoint.png">
+            <P>
+
+             We'd like to invite you to the next Pixelnebriation event. Please join us for Episode 3: Checkpoint Brutal, 
+            which doesn't mean it's secretly an underground Fight Club (maybe...). The aim is to allow for brutal, 
+            respectful honesty by all, in their experiences so far, pros and cons, and then come away having gained insight 
+            into what others go through and ideas for continued improvements.
+            </P>
+            <br>
+            <h2>We're delighted to announce that the 7 speakers aka The Knights of Speak (because we're original like that) are:</h2>
+            <div class="speakers-container">
+                <div class="speakers">
+                        <img src="img/jupiter.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                        <div class="text"><a href="https://twitter.com/Jupiter_Hadley">Jupiter Hadley (BigBossBattle)</a><br>
+                            <span class="tagline">"Life of Jupiter - From Lets Plays to Journalism"</span>
+                        </div>
+                        </div>
+                </div>
+                <div class="speakers">
+                        <img src="img/jodie.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                        <div class="text"><a href="https://twitter.com/JodieAzhar">Jodie Azhar (Technical Artist)</a>
+                                <span class="tagline">"All Size Matters: Studio Culture"</span>
+                        </div>
+                        </div>
+                </div>
+                <div class="speakers">
+                        <img src="img/nick.jpeg" alt="Avatar" class="image">
+                        <div class="overlay">
+                        <div class="text"><a href="https://twitter.com/np_marshall">Nick Marshall (Games Marketing)<br></a>
+                                <span class="tagline">"85% Failure"</span>
+                        </div>
+                        </div>
+                </div>
+                <div class="speakers">
+                        <img src="img/adam.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                        <div class="text"><a href="https://twitter.com/AC_Revolution">Adam Campbell (Azoomee)</a>
+                            <span class="tagline">"Married to the industry"</span>
+                            </div>
+                        </div>
+                </div>
+                <div class="speakers">
+                        <img src="img/tasmin.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                        <div class="text"><a href="https://twitter.com/tamsinol"> Tamsin O'Luanaigh (nDreams)</a>
+                                <span class="tagline">"Building dreams: lessons from the frontline" </span>
+                        </div>
+                        </div>
+                </div>
+                <div class="speakers">
+                        <img src="img/izzy.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                        <div class="text"><a href="https://twitter.com/izzydrag0n">Izzy Jagan<br> (Indigo Pearl)</a>
+                                <span class="tagline">"Fake Gamer Girl"</span>
+                        </div>
+                        </div>
+                </div>
+               
+
+            </div>
+
+            <h3>Featuring:</h3>
+            <br>
+            <p>
+                    Brief keynote presentations by our brilliant panel selection!
+                    <br>
+                    <br>
+                    Opening to a more casual round 'floor' where attendees can contribute their own journey and opinions and chat about 
+                    how to actively make changes for the better and advice on how to advance their goals.
+                    <br>
+                    <br>
+                    This is all while in keeping with the original principle of Pixelnebration: which is helping folks who find it 
+                    difficult to socialise and promote their creations and to do so in a comfortable, open environment.
+            </p>
+
+            <div class="agenda-container">
+                    <div class="col-6">
+                        <h2>Agenda</h2>
+                        <ul>
+                            <li>2pm - Introduction and 7 Knights of Speak present</li>
+                            <li>3.30pm - Break</li>
+                            <li>4pm - Round Floor Commences</li>
+                        </ul>
+                        <br>
+                        <p>
+                                This a free event to people who work in gaming. There will be cake and themed cocktails provided and non-alcoholic 
+                                version as well. The host will be making sure you get introduced and help you with anything you need throughout the 
+                                day, apart from murder.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                            <img id="pn" src="img/PN.png">
+                    </div>
+                </div>
+        </section>
+
+        <hr>
+
+        <section id="pastevents">
+            <h2>Past Events</h2>
+            <div class="past-events-container">
+            <div class="event-box">
+                    <img src="img/logo2.png" alt="Pixel image of a brain having a drink" class="image">
+                    <div class="overlay">
+                    <div class="event-text">
+                            <h2>Episode 2: Brainspeed</h2>
+                            <p>Location: Loading Bar Scenario, N16 8BX</p>
+                            <p>Date: 15th June 2018</p>
+                            <br>
+                            <p> This time a great summoning of humans 
+                                from all walks of the gaming industry will gather for BrainSpeed, which isn't as illegal as it sounds!
+                                <br>
+                                <br>
+                                Agenda:<br>
+                                <br>
             
-    </section>
+                                6pm Introduction and you'll be assigned your Pokésona for...reasons!<br>
+                                7pm - Speed-netdating, like speedating, minus the saucy factor.<br>
+                                8pm - We commence our special gaming themed quiz!<br>
+                                9pm - Go wild!
+                            </p>
+                    </div>
+                    </div>
+            </div>
 
-    
-   
-    <div class="footer">
-        <div class="left-text">
-            <a href="https://sharkbit.co.uk" target="_blank"><img src="img/sharkbit.png" alt="the Sharkbit logo"></a>
-                <p>Pixelnebriation is brought to you by Sharkbit</p>
-                
+            <div class="event-box">
+                    <img src="img/ep1.jpg" alt="Pixel image of a brain having a drink" class="image">
+                    <div class="overlay">
+                    <div class="event-text">
+                            <h2>Episode 1</h2>
+                            <p>Location: Nordic Bar, W1T 1PN</p>
+                            <p>Date: 16th February 2018</p>
+                            <br>
+                            <p>In the gaming industry, you can meet a lot of lovely gaming humans, but we only seem to meet at events and conventions. 
+                                I thought it would be nice to see if we can get a more social get together sorted, that allows you to network and get 
+                                support/motivation from your peers or use your own powers to boost people. Also, more importantly the aim of this is for 
+                                everyone to have the craic (not that type...or the other one you might be thinking).
+                            </p>
+                    </div>
+                    </div>
+            </div>
+            </div>
+            
+        </section>
+      </div>
+      
+      
+      <div class="footer">
+            <div class="left-text">
+                <a href="https://sharkbit.co.uk" target="_blank"><img src="img/sharkbit.png" alt="the Sharkbit logo"></a>
+                    <p>Pixelnebriation is brought to you by Sharkbit</p>
+                    
+            </div>
+            <div class="right-text">   
+                <a href="https://twitter.com/SharkB1t" target="_blank" class="twitter"><i class="fab fa-twitter"><p id="twitter">Follow us on Twitter</p> </i></a>
+                <a href="https://www.instagram.com/jessntheraven/" target="_blank" class="instagram"><i class="fab fa-instagram"><p id="instagram">Pixel artwork by</p></i></a>
+            </div>
+            <p id="copyright">	&copy; Pixelnebriation 2018</p>
         </div>
-        <div class="right-text">   
-            <a href="https://twitter.com/SharkB1t" target="_blank" class="twitter"><i class="fab fa-twitter"><p id="twitter">Follow us on Twitter</p> </i></a>
-            <a href="https://www.instagram.com/jessntheraven/" target="_blank" class="instagram"><i class="fab fa-instagram"><p id="instagram">Pixel artwork by</p></i></a>
-        </div>
-        <p id="copyright">	&copy; Pixelnebriation 2018</p>
-    </div>
-    
-   
-                
-
         
- 
-
-    <script src="js/script.js"></script>
+      
+      <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+      <script src="js/script.js"></script>
 </body>
 </html>
